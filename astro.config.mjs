@@ -6,8 +6,12 @@ import starlight from '@astrojs/starlight';
 export default defineConfig({
 	integrations: [
 		starlight({
-			title: 'My Docs',
-			social: [{ icon: 'github', label: 'GitHub', href: 'https://github.com/withastro/starlight' }],
+			title: 'Colliebot',
+			social: [
+				{ icon: 'discord', label: 'Discord', href: 'https://discord.collie.bot' },
+				{ icon: 'bluesky', label: 'Bluesky', href: 'https://bsky.app/profile/collie.bot' },
+				{ icon: 'github', label: 'GitHub', href: 'https://github.com/Colliebot' }
+			],
 			sidebar: [
 				{
 					label: 'Guides',
