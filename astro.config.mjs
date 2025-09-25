@@ -23,6 +23,10 @@ export default defineConfig({
 					label: 'Reference',
 					autogenerate: { directory: 'reference' },
 				},
+				{
+					label: 'Terms of Service',
+					slug: 'terms',
+				},
 			],
 		}),
 	],
