@@ -14,9 +14,9 @@ export default defineConfig({
 			],
 			sidebar: [
 				{
-					label: 'Guides',
+					label: 'Documentation',
 					items: [
-						{ label: 'Templates', slug: 'guides/templates' },
+						{ label: 'Templates', slug: 'docs/templates' },
 					],
 				},
 				{
