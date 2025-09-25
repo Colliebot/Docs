@@ -24,8 +24,11 @@ export default defineConfig({
 					autogenerate: { directory: 'reference' },
 				},
 				{
-					label: 'Terms of Service',
-					slug: 'terms',
+					label: 'Legal',
+					items: [
+						{ label: 'Terms of Service', slug: 'legal' },
+						{ label: 'Privacy Policy', slug: 'privacy' },
+					],
 				},
 			],
 		}),
